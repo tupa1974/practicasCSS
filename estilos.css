@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin:0 ;
+    height: 100%;
+       
+    background: #191919;
+  }
+   .circulo {
+    z-index:1;
+    position:absolute;
+    bottom: 60px; 
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    background:#F9E492;
+   
+  }
+  .quesito {
+    z-index:1;
+    position:absolute;
+    bottom: 60px; 
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    border-radius: 50%;
+    clip: rect(0px, 90px, 80px, 0px);
+    transform: rotate(222deg);
+    background:#191919;
+   
+  }
+   .triangulo {
+    border-right: 135px solid transparent;
+     border-top: 135px solid transparent;
+     border-left: 135px solid transparent;
+     border-bottom: 135px solid #4F77FF; 
+     
+   
+  }
